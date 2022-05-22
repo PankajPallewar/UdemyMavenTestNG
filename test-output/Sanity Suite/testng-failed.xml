@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Sanity Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="Sanity Tests(failed)">
+    <classes>
+      <class name="com.mavenTestNG.tests.loginWorkflow1">
+        <methods>
+          <include name="loginIntoFacebook3"/>
+          <include name="loginIntoFacebook2"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mavenTestNG.tests.loginWorkflow1 -->
+      <class name="com.mavenTestNG.tests.loginWorkflow">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginIntoFacebook"/>
+          <include name="loginIntoFacebook1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mavenTestNG.tests.loginWorkflow -->
+    </classes>
+  </test> <!-- Sanity Tests(failed) -->
+</suite> <!-- Failed suite [Sanity Suite] -->

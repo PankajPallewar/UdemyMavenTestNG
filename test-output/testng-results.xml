@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-24T17:36:56 IST" name="Default suite" finished-at="2021-04-24T17:37:12 IST" duration-ms="15925">
+    <groups>
+    </groups>
+    <test started-at="2021-04-24T17:36:56 IST" name="Default test" finished-at="2021-04-24T17:37:12 IST" duration-ms="15925">
+      <class name="com.mavenTestNG.tests.loginWorkflow">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mavenTestNG.tests.loginWorkflow@1a04f701]" started-at="2021-04-24T17:36:56 IST" name="setUp" finished-at="2021-04-24T17:37:00 IST" duration-ms="3726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginIntoFacebook()[pri:0, instance:com.mavenTestNG.tests.loginWorkflow@1a04f701]" started-at="2021-04-24T17:37:00 IST" name="loginIntoFacebook" finished-at="2021-04-24T17:37:00 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoFacebook -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mavenTestNG.tests.loginWorkflow@1a04f701]" started-at="2021-04-24T17:37:00 IST" name="tearDown" finished-at="2021-04-24T17:37:04 IST" duration-ms="4155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mavenTestNG.tests.loginWorkflow@1a04f701]" started-at="2021-04-24T17:37:04 IST" name="setUp" finished-at="2021-04-24T17:37:08 IST" duration-ms="3377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginIntoFacebook1()[pri:0, instance:com.mavenTestNG.tests.loginWorkflow@1a04f701]" started-at="2021-04-24T17:37:08 IST" name="loginIntoFacebook1" finished-at="2021-04-24T17:37:08 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoFacebook1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mavenTestNG.tests.loginWorkflow@1a04f701]" started-at="2021-04-24T17:37:08 IST" name="tearDown" finished-at="2021-04-24T17:37:12 IST" duration-ms="4134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mavenTestNG.tests.loginWorkflow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

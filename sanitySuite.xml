@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Sanity Suite" parallel="classes" thread-count="2">
+	<test name="Sanity Tests">
+		<classes>
+			<class name="com.mavenTestNG.tests.loginWorkflow">
+				<methods>
+					<include name="loginIntoFacebook"/>
+					<include name="loginIntoFacebook1"/>
+				</methods>
+			</class>
+			<class name="com.mavenTestNG.tests.loginWorkflow1">
+				<methods>
+					<include name="loginIntoFacebook2"/>
+					<include name="loginIntoFacebook3"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
